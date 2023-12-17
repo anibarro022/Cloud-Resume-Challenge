@@ -15,7 +15,7 @@ navLinks.forEach(link => {
 
 const counter = document.querySelector('.counter-number');
 async function updateCounter() {
-    let response = await fetch("https://x7kgwyqzzdje5obll3mkwypycq0yoylf.lambda-url.us-west-2.on.aws/");
+    let response = await fetch("https://sftbnrpsvelgr2ayaqowz7wc5a0nirew.lambda-url.us-west-2.on.aws/");
     let data = await response.json();
     counter.innerHTML = `Views: ${data}`;
 }
