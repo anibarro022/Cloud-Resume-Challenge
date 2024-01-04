@@ -59,7 +59,8 @@ body {
 }
 
 section {
-    padding: 5em 2em;
+    padding: 0 2em;
+    padding-top: 1em;
 }
 
 img {
@@ -95,6 +96,16 @@ strong {
 
 .btn:hover {
     transform: scale(1.1)
+}
+
+.port-container {
+    display: flex;
+}
+
+.port-container__btn {
+    background: var(--clr-accent);
+    color: var(--clr-light);
+    margin: auto;
 }
 
 /* Typography */

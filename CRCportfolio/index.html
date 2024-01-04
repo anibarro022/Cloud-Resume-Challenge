@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=devicewidth, initial-scale=1.0">
-    <title>DevNico Portfolio</title>
+    <title>Cloud Resume Challenge</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <script src="https://kit.fontawesome.com/e0982101fc.js" crossorigin="anonymous"></script>
 
@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -25,116 +25,91 @@
         </button>
         <nav class="nav">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">What I know</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="https://anibarro.dev/" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="https://anibarro.dev/#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="https://anibarro.dev/#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="https://anibarro.dev/#work" class="nav__link">My Work</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Introduction -->
-    <section class="intro" id="home">
+    <!-- Project -->
+    <section class="intro">
         <h1 class="section__title section__title--intro">
-            Hi, I'm <strong>Nico Anibarro</strong>
+            The Cloud <strong>Resume Challenge</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">&ltcloud engineer&gt</p>
-        <!-- add portfolio picture later -->
-        <img src="img/cartoon.jfif" alt="" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">The Premier Cloud Skills Showcase</p>
+        <img src="img/crc-diagram.png" class="intro__img" alt="Cloud diagram">
     </section>
 
-    <!-- My services -->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I know</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Technologies</h3>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>AWS</li>
-                    <li>Azure</li>
-                    <li>Terraform</li>
-                    <li>CI/CD</li>
-                    <li>Git</li>
-                    <li>Github</li>
-                    <br>
-                </ul>
-            </div>
+    <div class="portfolio-item-individual">
+        <p> &emsp;Welcome to the era where your resume extends beyond paper, reflecting your technical skills
+            through
+            innovative projects. The Cloud Resume Challenge, conceived by Forrest Brazeal, is a modern rite of passage
+            for those aiming to excel in the cloud sector. This project requires you to build a resume website with a
+            simple visitor counter using
+            various cloud services and tools to power it, demonstrating proficiency in AWS, IaC, HTML, CSS, JavaScript,
+            and more.
+            It's an immersive journey through coding, cloud architecture, security, and continuous deployment,
+            culminating in a digital portfolio that showcases your hands-on experience with cutting-edge technologies.
+        </p>
+        <img src="img/crc-diagram.png" alt="">
+        <p><b>1. Crafting the Web Presence:</b> My journey with HTML and CSS started in the MySpace era, sparking a
+            passion for
+            web design that influenced my career. Having been an entrepreneur since 19, I've always recognized the
+            importance of a solid online presence, leading me to create numerous websites over the years for myself and
+            others. For the challenge, I chose to draw on my years of experience, further enhancing my skills through
+            going the extra mile and completing an online frontend bootcamp. I hand-coded my portfolio website from
+            scratch, setting a personal benchmark and demonstrating a lifelong commitment to learning and passion for
+            web development. Oh and yes the visitor counter was added in too at the bottom of this blog!</p>
+        <p> <b>2. The Backbone: Terraform and AWS:</b> With a solid academic background in Cloud Computing, I was eager
+            to
+            expand my skills with Terraform and AWS, essential tools in the industry. Terraform's learning curve was
+            steep, but I persevered, taking several courses to understand its interaction with AWS services. My approach
+            was selective, integrating the best practices and strategies from each resource into a cohesive Terraform
+            plan. This deep dive into Terraform wasn't just about learning a new tool; it was about embracing the
+            complexities of cloud architecture and infrastructure as code.</p>
+        <p> <b>3. Security and Communication: IAM, Roles, and Policies:</b> With certifications in Security+, AWS Cloud
+            Practitioner, Network+, and a B.S. in Cloud Computing, I approached the challenge with a nuanced
+            understanding of security and service intercommunication. Orchestrating the interaction between services
+            through IAM policies and roles, I ensured that every configuration was a deliberate decision, informed by
+            best practices and a deep understanding of potential vulnerabilities. My approach balanced robust security
+            with functionality, creating a resilient and adaptable architecture that reflected a comprehensive skill set
+            and understanding of cloud architecture.</p>
+        <p> <b>4. Lightning-Fast Delivery: AWS CloudFront:</b> Recognizing the importance of speed and efficiency, I
+            utilized
+            AWS CloudFront to distribute my site through a Content Delivery Network (CDN), ensuring fast load times and
+            a seamless user experience worldwide.</p>
+        <p> <b>5. Continuous Innovation: GitHub Actions and Jenkins:</b> To maintain a dynamic and up-to-date website,
+            I
+            integrated GitHub Actions with Jenkins for a robust CI/CD pipeline. This setup automated updates to the S3
+            site, ensuring that the latest changes were always live without manual intervention.</p>
+        <p> <b>6. Establishing a Digital Foothold: Route53, Namecheap, and DNS Tools:</b> To finalize my digital
+            presence, I
+            adeptly managed DNS records through Route53, integrating it seamlessly with my Namecheap domain. I further
+            personalized my space by creating a subdomain exclusively for this blog post within Route53 (that's why
+            you'll see added "cloud" in front of anibarro.dev at the top of your page while viewing this blog). Using
+            'dig' DNS
+            tools, I meticulously tested and validated the functionality of both domain and subdomain, ensuring their
+            correct configuration and reliability. This strategic management of services highlights the meticulousness
+            and precision required in cloud infrastructure, culminating in a distinctive and reliable digital identity.
+        </p>
 
-            <div class="service">
-                <h3>Certifications</h3>
-                <ul>
-                    <li>FCC Responsive Web Design</li>
-                    <li>AWS Cloud Practitioner</li>
-                    <li>LPI Linux Essentials</li>
-                    <li>ITIL v3 Foundation</li>
-                    <li>CompTIA Cloud+</li>
-                    <li>CompTIA Project+</li>
-                    <li>CompTIA Security+</li>
-                    <li>CompTIA Network+</li>
-                    <li>CompTIA A+</li>
-                    <br>
-                </ul>
-            </div>
+        <p>&emsp;In conclusion, the Cloud Resume Challenge is more than just building a portfolio with a visitor
+            counter. It's about
+            integrating a
+            plethora of services, security measures, and deployment strategies to create something impactful and
+            representative of one's skill, creativity, and technological prowess. It's a thorough examination of your
+            skills, providing a singular opportunity to differentiate yourself in the tech industry, a challenge I
+            thoroughly enjoyed.</p>
 
-            <div class="service">
-                <h3>Education</h3>
-                <ul>
-                    <li>B.S. Cloud Computing</li>
-                    <li>Western Governors University</li>
-                </ul>
-            </div>
+        <div class="port-container">
+            <a href="https://github.com/anibarro022/Cloud-Resume-Challenge" class="btn port-container__btn">View
+                Code</a>
         </div>
+    </div>
 
-        <a href="#work" class="btn">My Work</a>
-    </section>
 
-    <!-- About me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Developer in Bremerton, WA</p>
-
-        <div class="about-me__body">
-            <p>Hello! I'm a passionate Web Developer with a Bachelor of Science in Cloud Computing, bringing a fresh and
-                innovative approach to the digital world. My journey in technology began with a fascination for how
-                websites are built and the cloud infrastructure that powers them. This curiosity led me to master HTML,
-                CSS, and JavaScript, the foundational pillars of web development.</p>
-            <p>My education in Cloud Computing has equipped me with a unique perspective on how to leverage cloud
-                technologies to optimize website performance and scalability. I thrive in environments where I can turn
-                complex problems into elegant, user-friendly web solutions. My goal is to create websites that not only
-                look great but also perform flawlessly, ensuring an exceptional user experience.</p>
-        </div>
-
-        <!-- add portfolio picture later -->
-        <img src="" alt="" class="about-me__img">
-    </section>
-
-    <!-- My Work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
-        <div class="portfolio">
-            <!-- Portfolio item 01 -->
-            <a href="https://github.com/anibarro022/HackerNews-Clone" class="portfolio__item">
-                <img src="img/HNclone.png" alt="" class="portfolio__img">
-            </a>
-
-            <!-- Portfolio item 02 -->
-            <a href="https://github.com/anibarro022/Google-Keep-Clone" class="portfolio__item">
-                <img src="img/keepclonescreenshot.png" alt="" class="portfolio__img">
-            </a>
-
-            <!-- Portfolio item 03 -->
-            <!-- <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-                </a> -->
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">
