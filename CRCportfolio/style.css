@@ -535,3 +535,9 @@ nav {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* portfolio body */
+
+.body__img {
+    margin: auto;
+}
